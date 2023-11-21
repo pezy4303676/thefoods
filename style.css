@@ -1,0 +1,512 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #FFF3F3;
+}
+
+#corpo {
+  margin: 0 auto;
+  width: 406px;
+  position: relative;
+  bottom: 10px;
+}
+
+#imgm {
+  width: 400px;
+  height: 281.69px;
+  position: relative;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  left: 2.5px;
+}
+
+#btnlog {
+  width: 78px;
+  height: 24px;
+  background-color: #FF1E61;
+  border-radius: 10px;
+  color: white;
+  font-family: 'Inconsolata', monospace;
+  font-size: 19.22px;
+  position: relative;
+  top: 45px;
+  left: 100px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#login {
+  box-shadow: 0px 6px 4px 0px #00000040;
+  outline: none;
+  width: 330px;
+  height: 475px;
+  border-radius: 20px;
+  position: relative;
+  bottom: 50px;
+  background-color: white;
+  left: 42px;
+  padding: 1px;
+}
+
+/* form */
+
+#InpEmail {
+  background-color: #FBEAEA;
+  width: 288.2px;
+  height: 39.11px;
+  border-radius: 15px;
+  position: relative;
+  left: 15px;
+  padding: 2.5px;
+}
+
+#InpText {
+  background-color: #FBEAEA;
+  caret-color: #FF1E61;
+  color: #FF1E61;
+  border: none;
+  outline: none;
+  position: relative;
+  left: 1px;
+  bottom: 2.5px;
+  width: 200px;
+}
+
+#IconEmail {
+  position: relative;
+  left: 5px;
+  top: 5px;
+}
+
+#InpText::placeholder {
+  font-family: 'Inter', sans-serif;
+  color: #FF1E6182;
+  font-size: 16px;
+}
+
+#IconEmailLine {
+  position: relative;
+  top: 5px;
+}
+
+/* form pass */
+#InpPass {
+  background-color: #FBEAEA;
+  width: 288.2px;
+  height: 39.11px;
+  border-radius: 15px;
+  position: relative;
+  left: 15px;
+  padding: 2.5px;
+}
+
+#IconPass {
+  position: relative;
+  left: 5px;
+  top: 5px;
+}
+
+#IconPassLine {
+  position: relative;
+  top: 5px;
+}
+
+#InpTextP {
+  background-color: #FBEAEA;
+  caret-color: #FF1E61;
+  color: #FF1E61;
+  border: none;
+  outline: none;
+  position: relative;
+  left: 1px;
+  bottom: 2.5px;
+  width: 200px;
+}
+
+#InpTextP::placeholder {
+  font-family: 'Inter', sans-serif;
+  color: #FF1E6182;
+  font-size: 16px;
+}
+
+#TextC {
+  font-family: 'Inconsolata', monospace;
+  color: #FF1E61;
+  position: relative;
+  left: 120px;
+  bottom: 19px;
+  width: 90px;
+  font-size: 17.57px;
+}
+
+#FounGo {
+  background-color: white;
+  width: 31px;
+  height: 29px;
+  box-shadow: 0px 5px 4px 0px #FFB4CA42;
+  border-radius: 50px;
+  border: none;
+  margin-left: 15px;
+  left: 84px;
+  position: relative;
+}
+
+#Atalhos {
+  position: relative;
+  bottom: 30px;
+}
+
+#BtnLogar {
+  width: 223px;
+  height: 42px;
+  background-color: #FF1E61;
+  border: none;
+  border-radius: 20px;
+  font-family: 'Inconsolata', monospace;
+  color: white;
+  font-size: 22.88px;
+  position: relative;
+  left: 50px;
+  outline: none;
+  cursor: pointer;
+}
+
+#BTNCadastro {
+  background-color: white;
+  border: 1px solid #FF1E61;
+  border-radius: 20px;
+  font-family: 'Inconsolata', monospace;
+  color: #FF1E61;
+  font-size: 19.89px;
+  position: relative;
+  left: 85px;
+  top: 10px;
+  outline: none;
+  cursor: pointer;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-decoration: none;
+}
+
+/* cadastro */
+
+#btnCads {
+  width: 110px;
+  height: 24px;
+  background-color: #FF1E61;
+  border-radius: 10px;
+  color: white;
+  font-family: 'Inconsolata', monospace;
+  font-size: 19.22px;
+  position: relative;
+  top: 45px;
+  left: 95px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.InpNameC {
+  background-color: #FBEAEA;
+  width: 288.2px;
+  height: 39.11px;
+  border-radius: 15px;
+  padding: 2.5px;
+}
+
+.IconEmailC {
+  position: relative;
+  left: 5px;
+  top: 5px;
+}
+
+.IconEmailLineC {
+  position: relative;
+  top: 5px;
+}
+
+.InpTextC {
+  background-color: #FBEAEA;
+  caret-color: #FF1E61;
+  color: #FF1E61;
+  border: none;
+  outline: none;
+  position: relative;
+  width: 200px;
+}
+
+.InpTextC::placeholder {
+  font-family: 'Inter', sans-serif;
+  color: #FF1E6182;
+  font-size: 16px;
+}
+
+#corpoC {
+  margin: 0 auto;
+  width: 295px;
+}
+
+#h5oc {
+  color: #FF1E61;
+  font-family: 'Inconsolata', monospace;
+  font-size: 19.22px;
+  position: relative;
+  left: 60px;
+  bottom: 20px;
+}
+
+#foundselect {
+  width: 90px;
+  height: 34px;
+  background-color: #FFE4E4;
+  border-radius: 15px;
+  position: relative;
+  bottom: 36.5px;
+  left: 108px;
+  padding: 2px;
+}
+
+#selectin {
+  color: #FF1E61;
+  font-size: 23.06px;
+  font-family: 'Inconsolata', monospace;
+  width: 40px;
+  height: 20px;
+  background-color: #FFE4E4;
+  position: relative;
+  top: 5px;
+  left: 8px;
+}
+
+#setapab {
+  width: 14px;
+  height: 14px;
+  position: relative;
+  bottom: 7.5px;
+  left: 65px;
+  cursor: pointer;
+}
+
+.btnnumber {
+  margin-left: 5px;
+}
+
+.btnnumber {
+  border: 0px;
+  background: none;
+  color: #FF1E61;
+  outline: none;
+}
+
+.btnnumber:hover {
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 100px;
+  background-color: #f7c0c0;
+}
+
+#corpoC {
+  box-shadow: 0px 6px 4px 0px #00000040;
+  outline: none;
+  width: 320px;
+  height: 475px;
+  border-radius: 20px;
+  position: relative;
+  bottom: 50px;
+  background-color: white;
+  left: 42px;
+  padding: 1px;
+}
+
+#imgmenu {
+  width: 400px;
+  height: 281.69px;
+  position: relative;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+#founcriar {
+  box-shadow: 0px 6px 4px 0px #00000040;
+  outline: none;
+  width: 368px;
+  height: 855px;
+  border-radius: 20px;
+  position: relative;
+  bottom: 50px;
+  background-color: white;
+  left: 18px;
+  padding: 1px;
+  padding-bottom: 10px;
+}
+
+#cadasts {
+  width: 108px;
+  height: 24px;
+  background-color: #FF1E61;
+  border-radius: 10px;
+  color: white;
+  font-family: 'Inconsolata', monospace;
+  font-size: 19.22px;
+  position: relative;
+  top: 45px;
+  left: 100px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.InpName {
+  background-color: #FBEAEA;
+  width: 288.2px;
+  height: 39.11px;
+  border-radius: 15px;
+  padding: 2.5px;
+}
+
+.IconNameLine {
+  position: relative;
+  top: 5px;
+}
+
+.IconName {
+  position: relative;
+  left: 5px;
+  top: 5px;
+}
+
+#INPUS {
+  width: 288.5px;
+  margin: 0 auto;
+}
+
+.InpText::placeholder {
+  font-family: 'Inter', sans-serif;
+  color: #FF1E6182;
+  font-size: 16px;
+}
+
+.InpText {
+  background-color: #FBEAEA;
+  caret-color: #FF1E61;
+  color: #FF1E61;
+  border: none;
+  outline: none;
+  position: relative;
+  width: 200px;
+}
+
+#textCa {
+  font-family: 'Inconsolata', monospace;
+  color: #FF1E61;
+  font-size: 19.22px;
+  position: relative;
+  left: 50px;
+  bottom: 15px;
+}
+
+#selectmes {
+  color: #FF1E61;
+  background-color: #FFE4E4;
+  border: none;
+  outline: none;
+  font-size: 22.06px;
+  font-family: 'Inconsolata', monospace;
+  border-radius: 15px;
+  width: 105px;
+  height: 38px;
+  position: relative;
+  right: 15px;
+}
+
+#ano {
+  color: #FF1E61;
+  font-size: 23.06px;
+  font-family: 'Inconsolata', monospace;
+  width: 60px;
+  height: 38px;
+  background-color: #FFE4E4;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  padding-left: 18px;
+  padding-right: 10px;
+  position: relative;
+  left: 105px;
+  bottom: 40px;
+}
+
+.jenou {
+  accent-color: #FF1E61;
+  width: 20px;
+  height: 19px;
+  position: relative;
+  top: 6px;
+  outline: none;
+  border: 1px solid #FF1E61;
+}
+
+.TextInp {
+  color: #FF1E61;
+  font-size: 24.02px;
+  font-family: 'Inconsolata', monospace;
+  position: relative;
+  top: 5px;
+  margin-left: 6px;
+}
+
+.foundjenre {
+  background-color: #FBEAEA;
+  width: 100px;
+  margin: 5px;
+  height: 38px;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+#jenero {
+  display: flex;
+  width: 368px;
+  position: relative;
+  right: 38px;
+  bottom: 10px;
+}
+
+#Feminino {
+  margin-left: 50px;
+}
+
+#Masculino {
+  margin-left: 50px;
+}
+
+#generos {
+  color: #FF1E61;
+  font-size: 19.22px;
+  font-family: 'Inconsolata', monospace;
+  position: relative;
+  left: 110px;
+  width: 58px;
+  bottom: 15px;
+}
+
+#criarja {
+  width: 117px;
+  height: 38px;
+  font-size: 21.14px;
+  font-family: 'Inconsolata', monospace;
+  color: #FFFFFF;
+  border-radius: 15px;
+  border: none;
+  background-color: #FF1E61;
+  outline: none;
+  position: relative;
+  left: 85px;
+  bottom: 28px;
+}
+
