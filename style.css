@@ -5,8 +5,24 @@ html,body {
 }
 
 #todoForm {
-    width: 40%;
+    width: 409px;
     background-color: #FFF3F3;
     height: 100%;
     margin:  0 auto;
+}
+#imgtop {
+    width: 100%;
+    height: 200px;
+}
+#enteron{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: max-content;
+}
+#Form {
+    width: 100%;
+    height: max-content;
+    display: flex;
 }
